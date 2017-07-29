@@ -14,6 +14,6 @@
 - Server HTTP isteğini alır ve bir şekilde HTTP yanıtı üreterek bunu TCP bağlantısı üzerinden geri gönderir.
 - Tarayıcı yanıtı aldığında ekranda görüntülenir ve artık HTTP isteği tamamlanmış olur.
    * TCP bağlantısı sonlandırmak için:
-      * İstemci sunucuya bir *FIN* paketi gönderir. Sunucu istemciye *ACK* paketi gönderir ve devamında sunucu istemciye bir *FIN* paketi gönderir. İstemci de sunucuya bir *ACK* paketi göndererek aralarındaki bağlantıyı sonlandırmış olurlar.
+      * İstemci sunucuya bir *FIN* paketi gönderir. Sunucu istemciye *ACK* paketi gönderir ve devamında sunucu istemciye bir *FIN* paketi gönderir. İstemci de sunucuya bir *ACK* paketi göndererek aralarındaki bağlantıyı sonlandırmış olurlar.<br>
 <img src="FIN+ACK.png"/><br>
 **Şekil 2.** TCP bağlantısının sonlandırılması
